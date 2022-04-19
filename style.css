@@ -14,6 +14,8 @@
     height:38px;
     max-height:38.4px;
     background:url("img/25231.png");
+    background-size:100% 100%;
+    display: inline-block;
 }     
 .bloques{
     margin:auto;
