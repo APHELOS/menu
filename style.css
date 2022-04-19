@@ -13,7 +13,7 @@
     width:169px;
     height:38px;
     max-height:38.4px;
-    background:url("https://www.w3schools.com/w3images/architect.jpg");
+    background:url("img/25231.png");
 }     
 .bloques{
     margin:auto;
@@ -28,14 +28,14 @@
     z-index:1;
 }
 .menu {
-    background:url("https://www.w3schools.com/w3images/architect.jpg");
+    background:url("img/IMG_20220330_071924.jpg");
 
     
 }
 .nav{
     width:32px;
     height:32px;
-    background:transparent url(https://www.w3schools.com/w3images/architect.jpg);
+    background:transparent url("img/56763.png");
     background-size:100% 100%;
     display:inline-block;
     cursor:pointer;
