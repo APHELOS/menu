@@ -1,0 +1,82 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    text-decoration:none;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+
+.logo{
+    width:169px;
+    height:38px;
+    max-height:38.4px;
+    background:url("https://www.w3schools.com/w3images/architect.jpg");
+}     
+.bloques{
+    margin:auto;
+    width:100%;
+    height:43px;
+    padding:20px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    position:relative;
+    z-index:1;
+}
+.menu {
+    background:url("https://www.w3schools.com/w3images/architect.jpg");
+
+    
+}
+.nav{
+    width:32px;
+    height:32px;
+    background:transparent url(https://www.w3schools.com/w3images/architect.jpg);
+    background-size:100% 100%;
+    display:inline-block;
+    cursor:pointer;
+    padding:5px;
+}
+
+
+
+
+ul{
+    width:90%;
+    height:400px;
+    max-width:100%;
+    background:white;
+    overflow:hidden;
+    margin-top:20px;
+    transition:.3s ease-in-out;
+    position:relative;
+    flex-wrap:wrap;
+    padding:1.25rem 0px;
+    z-index:1000;
+    border-radius:10px;
+}
+li{
+    list-style-type:none;
+    border-bottom:1px solid #eeeeee;
+    text-align:left;
+    width:100%;
+    height:60px;
+    display:flex;
+    align-items:center;
+    padding:0px 20px;
+    font-weight:500;
+}
+.button {
+  background-color: #4CAF50;
+  border: none;
+  object-fit:cover;
+  text-decoration: none;
+
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
